@@ -3,4 +3,21 @@ git remote show origin
 shows you waht the fetch and push urls are. 
 
 
-git checkout -b master 
+git checkout -b 
+
+git pull --allow-unrelated-histories 
+
+
+usually: 
+master is your deployed version 
+then you have stable
+and development where you test features 
+and feature branch where you make features. 
+
+once your merge feature branches, you merge into develpoment. then development into master? 
+then delete all feature branches. as they become stable, merge into dvelopment. merge into master. deploy master. 
+
+always pull and then push 
+
+
+git push origin development 
