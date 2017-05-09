@@ -21,3 +21,31 @@ always pull and then push
 
 
 git push origin development 
+
+
+pull, see up to date, then push. !!! 
+
+
+
+commit often
+
+if you break something severely, git stash, you go back to your previous commit
+
+
+there are times when you don't want to add all the files 
+
+git reset 
+
+git add . is adding all changes 
+
+git add style.css 
+
+sometimes, you want to push 10 files. do you want to sit there? 
+in this case, you want to add all and reset one 
+
+git add . 
+git reset index.html 
+
+
+if you have 10 files, add everything, and reset the ones you don't want. sometimes you added a file for testing purposes. 
+
