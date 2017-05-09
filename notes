@@ -1,0 +1,6 @@
+
+git remote show origin 
+shows you waht the fetch and push urls are. 
+
+
+git checkout -b master 
